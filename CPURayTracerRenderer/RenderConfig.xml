@@ -1,0 +1,68 @@
+<RenderConfig>
+    <Renderer>
+        <parameter name="Type" value="CPURayTracer" />
+        <parameter name="RectSamples" value="640 480 4" />
+        <Camera>
+            <parameter name="DepthOfField" value="0" />
+            <parameter name="MotionBlur" value="0" />
+            <parameter name="Position" value="0.0 -5.0 2.5" />
+            <parameter name="Direction" value="0.0 5.0 -1.5" />
+        </Camera>
+        <Scene>
+            <Object type="Sphere">
+                <parameter name="Position" value="0.0 0.0 -1000.0" />
+                <parameter name="Radius" value="1000" />
+                <Material type="Specular">
+                    <parameter name="Color" value="1.0 0.84 0.0" />
+                    <parameter name="Gloss" value="0.3" />
+                    <parameter name="Emission" value="0.0 0.0 0.0" />
+                </Material>
+            </Object>
+            <Object type="Sphere">
+                <parameter name="Position" value="-1004.0 0.0 0.0" />
+                <parameter name="Radius" value="1000" />
+                <Material type="Diffuse">
+                    <parameter name="Color" value="1.0 0.84 0.0" />
+                    <parameter name="Gloss" value="0.8" />
+                    <parameter name="Emission" value="0.0 0.0 0.0" />
+                </Material>
+            </Object>
+            <Object type="Sphere">
+                <parameter name="Position" value="1004.0 0.0 0.0" />
+                <parameter name="Radius" value="1000" />
+                <Material type="Diffuse">
+                    <parameter name="Color" value="1.0 0.0 1.0" />
+                    <parameter name="Gloss" value="0.8" />
+                    <parameter name="Emission" value="0.0 0.0 0.0" />
+                </Material>
+            </Object>
+            <Object type="Sphere">
+                <parameter name="Position" value="0.0 1006.0 0.0" />
+                <parameter name="Radius" value="1000" />
+                <Material type="Diffuse">
+                    <parameter name="Color" value="1.0 0.0 1.0" />
+                    <parameter name="Gloss" value="0.8" />
+                    <parameter name="Emission" value="0.0 0.0 0.0" />
+                </Material>
+            </Object>
+            <Object type="Sphere">
+                <parameter name="Position" value="0.0 0.0 110.0" />
+                <parameter name="Radius" value="100" />
+                <Material type="Light">
+                    <parameter name="Color" value="1.0 1.0 1.0" />
+                    <parameter name="Gloss" value="0.8" />
+                    <parameter name="Emission" value="2.2 2.2 2.2" />
+                </Material>
+            </Object>
+            <Object type="Mesh">
+                <parameter name="FileName" value="dragon.obj" />
+                <parameter name="Position" value="0.0 0.0 0.0" />
+                <parameter name="Radius" value="0" />
+                <Material type="Specular">
+                    <parameter name="Color" value="0.1 0.8 0.9" />
+                    <parameter name="Gloss" value="0.02" />
+                </Material>
+            </Object>
+        </Scene>
+    </Renderer>
+</RenderConfig>

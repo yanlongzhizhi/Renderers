@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RayTracer", "RayTracer\RayTracer.vcxproj", "{E3D0C2AE-1B3E-4FA0-A784-1B7280553542}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D81A517F-54ED-4D4B-BE85-3954D963961A} = {D81A517F-54ED-4D4B-BE85-3954D963961A}
+		{DF707C99-86A1-4D68-AA8E-6610E3FF397F} = {DF707C99-86A1-4D68-AA8E-6610E3FF397F}
+		{321203CF-D977-45F9-A54D-EEBBD0E3BD53} = {321203CF-D977-45F9-A54D-EEBBD0E3BD53}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPURayTracerRenderer", "CPURayTracerRenderer\CPURayTracerRenderer.vcxproj", "{321203CF-D977-45F9-A54D-EEBBD0E3BD53}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenglRayTracerRenderer", "OpenglRayTracerRenderer\OpenglRayTracerRenderer.vcxproj", "{DF707C99-86A1-4D68-AA8E-6610E3FF397F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VulkanRayTracerRenderer", "VulkanRayTracerRenderer\VulkanRayTracerRenderer.vcxproj", "{D81A517F-54ED-4D4B-BE85-3954D963961A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3D0C2AE-1B3E-4FA0-A784-1B7280553542}.Debug|x64.ActiveCfg = Debug|x64
+		{E3D0C2AE-1B3E-4FA0-A784-1B7280553542}.Debug|x64.Build.0 = Debug|x64
+		{E3D0C2AE-1B3E-4FA0-A784-1B7280553542}.Debug|x86.ActiveCfg = Debug|Win32
+		{E3D0C2AE-1B3E-4FA0-A784-1B7280553542}.Debug|x86.Build.0 = Debug|Win32
+		{E3D0C2AE-1B3E-4FA0-A784-1B7280553542}.Release|x64.ActiveCfg = Release|x64
+		{E3D0C2AE-1B3E-4FA0-A784-1B7280553542}.Release|x64.Build.0 = Release|x64
+		{E3D0C2AE-1B3E-4FA0-A784-1B7280553542}.Release|x86.ActiveCfg = Release|Win32
+		{E3D0C2AE-1B3E-4FA0-A784-1B7280553542}.Release|x86.Build.0 = Release|Win32
+		{321203CF-D977-45F9-A54D-EEBBD0E3BD53}.Debug|x64.ActiveCfg = Debug|x64
+		{321203CF-D977-45F9-A54D-EEBBD0E3BD53}.Debug|x64.Build.0 = Debug|x64
+		{321203CF-D977-45F9-A54D-EEBBD0E3BD53}.Debug|x86.ActiveCfg = Debug|Win32
+		{321203CF-D977-45F9-A54D-EEBBD0E3BD53}.Debug|x86.Build.0 = Debug|Win32
+		{321203CF-D977-45F9-A54D-EEBBD0E3BD53}.Release|x64.ActiveCfg = Release|x64
+		{321203CF-D977-45F9-A54D-EEBBD0E3BD53}.Release|x64.Build.0 = Release|x64
+		{321203CF-D977-45F9-A54D-EEBBD0E3BD53}.Release|x86.ActiveCfg = Release|Win32
+		{321203CF-D977-45F9-A54D-EEBBD0E3BD53}.Release|x86.Build.0 = Release|Win32
+		{DF707C99-86A1-4D68-AA8E-6610E3FF397F}.Debug|x64.ActiveCfg = Debug|x64
+		{DF707C99-86A1-4D68-AA8E-6610E3FF397F}.Debug|x64.Build.0 = Debug|x64
+		{DF707C99-86A1-4D68-AA8E-6610E3FF397F}.Debug|x86.ActiveCfg = Debug|Win32
+		{DF707C99-86A1-4D68-AA8E-6610E3FF397F}.Debug|x86.Build.0 = Debug|Win32
+		{DF707C99-86A1-4D68-AA8E-6610E3FF397F}.Release|x64.ActiveCfg = Release|x64
+		{DF707C99-86A1-4D68-AA8E-6610E3FF397F}.Release|x64.Build.0 = Release|x64
+		{DF707C99-86A1-4D68-AA8E-6610E3FF397F}.Release|x86.ActiveCfg = Release|Win32
+		{DF707C99-86A1-4D68-AA8E-6610E3FF397F}.Release|x86.Build.0 = Release|Win32
+		{D81A517F-54ED-4D4B-BE85-3954D963961A}.Debug|x64.ActiveCfg = Debug|x64
+		{D81A517F-54ED-4D4B-BE85-3954D963961A}.Debug|x64.Build.0 = Debug|x64
+		{D81A517F-54ED-4D4B-BE85-3954D963961A}.Debug|x86.ActiveCfg = Debug|Win32
+		{D81A517F-54ED-4D4B-BE85-3954D963961A}.Debug|x86.Build.0 = Debug|Win32
+		{D81A517F-54ED-4D4B-BE85-3954D963961A}.Release|x64.ActiveCfg = Release|x64
+		{D81A517F-54ED-4D4B-BE85-3954D963961A}.Release|x64.Build.0 = Release|x64
+		{D81A517F-54ED-4D4B-BE85-3954D963961A}.Release|x86.ActiveCfg = Release|Win32
+		{D81A517F-54ED-4D4B-BE85-3954D963961A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9C4E8A6-1329-442E-9808-03F19D1F1843}
+	EndGlobalSection
+EndGlobal
